@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+spatialmap-env/
+
+# Data and results (optional if large)
+data/
+results/
+
+# OS files
+.DS_Store
+
+# Ignore raw or large data files
+Colon_cell_atlas.h5ad
+*.h5ad
+*.loom
+*.h5
+data/
